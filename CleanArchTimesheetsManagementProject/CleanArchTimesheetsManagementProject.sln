@@ -3,6 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArchTimesheetsManagementProject.Application", "CleanArchTimesheetsManagementProject.Application", "{9E716AC5-3C82-4A61-8F23-415B208D4C58}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArchTimesheetsManagementProject.Domain", "CleanArchTimesheetsManagementProject.Domain", "{FF2AC7FF-97AD-42E4-8721-D2359BE2918A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArchTimesheetsManagementProject.Infra.IOC", "CleanArchTimesheetsManagementProject.Infra.IOC", "{E01D57C5-A8D9-44E7-BCB8-B93D75890B8A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArchTimesheetsManagementProject.Infra.Data", "CleanArchTimesheetsManagementProject.Infra.Data", "{0DCACE35-DADE-45FA-8065-36D0AF65C6F7}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
