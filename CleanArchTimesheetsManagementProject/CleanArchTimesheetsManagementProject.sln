@@ -9,11 +9,49 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArchTimesheetsManageme
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArchTimesheetsManagementProject.Infra.IOC", "CleanArchTimesheetsManagementProject.Infra.IOC", "{E01D57C5-A8D9-44E7-BCB8-B93D75890B8A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArchTimesheetsManagementProject.Infra.Data", "CleanArchTimesheetsManagementProject.Infra.Data", "{0DCACE35-DADE-45FA-8065-36D0AF65C6F7}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{0DCACE35-DADE-45FA-8065-36D0AF65C6F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimesheetsManagementProject.Domain", "CleanArchTimesheetsManagementProject.Domain\TimesheetsManagementProject.Domain.csproj", "{7B8DFF5B-A5B7-4EA5-9869-A0AA6BE4454B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimesheetsManagementProject.Infra.Data", "TimesheetsManagementProject.Infra.Data\TimesheetsManagementProject.Infra.Data.csproj", "{ECC2AA13-CCAD-417D-A956-534491B34533}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TimesheetsManagementProject.WebAPI", "TimesheetsManagementProject.WebAPI", "{EC29CF3E-52B9-450D-B0D4-4F6CD8F81DA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchTimesheetsManagementProject.WebAPI", "CleanArchTimesheetsManagementProject.WebAPI\CleanArchTimesheetsManagementProject.WebAPI.csproj", "{A902C334-98BD-44A0-B759-29C4C9BE8924}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimesheetsManagementProject.Application", "TimesheetsManagementProject.Application\TimesheetsManagementProject.Application.csproj", "{F0E30186-C696-4981-987D-E7A185FD5D88}"
 EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B8DFF5B-A5B7-4EA5-9869-A0AA6BE4454B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B8DFF5B-A5B7-4EA5-9869-A0AA6BE4454B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B8DFF5B-A5B7-4EA5-9869-A0AA6BE4454B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B8DFF5B-A5B7-4EA5-9869-A0AA6BE4454B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECC2AA13-CCAD-417D-A956-534491B34533}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECC2AA13-CCAD-417D-A956-534491B34533}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECC2AA13-CCAD-417D-A956-534491B34533}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECC2AA13-CCAD-417D-A956-534491B34533}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A902C334-98BD-44A0-B759-29C4C9BE8924}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A902C334-98BD-44A0-B759-29C4C9BE8924}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A902C334-98BD-44A0-B759-29C4C9BE8924}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A902C334-98BD-44A0-B759-29C4C9BE8924}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0E30186-C696-4981-987D-E7A185FD5D88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0E30186-C696-4981-987D-E7A185FD5D88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0E30186-C696-4981-987D-E7A185FD5D88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0E30186-C696-4981-987D-E7A185FD5D88}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7B8DFF5B-A5B7-4EA5-9869-A0AA6BE4454B} = {FF2AC7FF-97AD-42E4-8721-D2359BE2918A}
+		{ECC2AA13-CCAD-417D-A956-534491B34533} = {0DCACE35-DADE-45FA-8065-36D0AF65C6F7}
+		{A902C334-98BD-44A0-B759-29C4C9BE8924} = {EC29CF3E-52B9-450D-B0D4-4F6CD8F81DA5}
+		{F0E30186-C696-4981-987D-E7A185FD5D88} = {9E716AC5-3C82-4A61-8F23-415B208D4C58}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5F9A3D66-D8BD-427F-93EE-C80ACA4B88B2}
